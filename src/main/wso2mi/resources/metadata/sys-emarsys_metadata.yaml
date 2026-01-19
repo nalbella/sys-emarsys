@@ -1,0 +1,10 @@
+---
+key: "sys-emarsys-1.0.0"
+name : "sys-emarsys"
+displayName : "sys-emarsys"
+description: "sys-emarsys"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/sys-emarsys"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

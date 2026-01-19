@@ -1,0 +1,14 @@
+openapi: 3.0.1
+info:
+  title: sys-emarsys
+  description: API Definition of sys-emarsys
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/sys-emarsys
+- url: https://localhost:8253/sys-emarsys
+paths:
+  /contacts:
+    get:
+      responses:
+        default:
+          description: Default response
